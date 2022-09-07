@@ -1,28 +1,27 @@
-#box {
-    border: 5px dashed green; /* adds a dashed green border with a width of 2px */
+ #box {
+    border: 5px dashed red; /* adds a dashed green border with a width of 2px */
     background-color: lightgrey; /* makes the background pink */
     border-radius: 30px; /* makes the border rounded*/
 }
 
 #p1 {
-    margin: 2% 10%; /* space between the object and the edge of the page */
-    width: 200px; /* The width of the paragraph is 200px*/
-    height: 100px; /*the height of the paragraph is 100px*/
-    border: 2px solid black; /* the border has a width of 2px, solid style, and color black*/
-    color: white; /*font color is white */
+    margin-left:400px;
+    width: 600px;
+    height: 300px;
+    border: 5px solid red;
+    color: black;
+    font-size: 20px;
 }
 
-p {
-    background-color: green; /*background gradient */
+#rotate {
+    transform: rotate(90deg);
+    margin-left: 300px;
+    height: auto;
 }
+
 h1 {
-    position: centered;  /*heading scrolls with the page*/
-    font-weight: 200; /*different font weight */
-    margin-left: 30px;
-}
-
-img {
-    width: 200px; /*width of the image*/
-    height: auto; /*height is automatically proportional*/
-    margin: 2% 40%; /*The image is set to have a top and bottom margin that is 2% of the page and a left/right margin of 40%*/
+    font-weight: bold;
+    margin: auto;
+    width: 20%;
+    padding-top: 50px;
 }
