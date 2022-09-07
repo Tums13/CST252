@@ -1,27 +1,34 @@
  #box {
-    border: 5px dashed red; /* adds a dashed green border with a width of 2px */
-    background-color: lightgrey; /* makes the background pink */
+    border: 5px dashed black; /* adds a dashed green border with a width of 2px */
+    background-color: #AC6B5D; /* makes the background pink */
     border-radius: 30px; /* makes the border rounded*/
 }
 
 #p1 {
-    margin-left:400px;
+    margin-left:225px;
     width: 600px;
     height: 300px;
-    border: 5px solid red;
+    border: 5px solid black;
     color: black;
     font-size: 20px;
+    text-align: left;
+    background-color: white;
+}
+
+#left {
+  margin-left: 300px;
 }
 
 #rotate {
     transform: rotate(90deg);
-    margin-left: 300px;
-    height: auto;
+    margin-left: 800px;
 }
+.left {
+  margin-left: 300px;}
 
 h1 {
     font-weight: bold;
     margin: auto;
-    width: 20%;
+    width: 12%;
     padding-top: 50px;
 }
