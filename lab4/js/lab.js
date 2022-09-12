@@ -1,9 +1,11 @@
 function flowerFunction() {
 	//initialize();
-
+	const num1 = document.querySelector("#flower1 .center").textContent;
+	const num2 = document.querySelector("#flower3 .center").textContent;
+	const sum = num1 + num2;
 	//YOUR CODE GOES RIGHT HERE
 
-	document.querySelector("#flower5 .center").textContent = document.querySelector("#flower1 .center").textContent + document.querySelector("#flower3 .center").textContent;
+	document.querySelector("#flower5 .center").textContent = sum;
 	document.querySelector("#flower5 .center").style.backgroundColor = "purple";
 	document.querySelector("#flower5 .center").style.color = "white";
 
