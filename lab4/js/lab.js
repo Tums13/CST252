@@ -6,14 +6,14 @@ function flowerFunction() {
 	//YOUR CODE GOES RIGHT HERE
 
 	document.querySelector("#flower5 .center").textContent = sum;
-	document.querySelector("#flower5 .center").style.backgroundColor = "purple";
+	document.querySelector("#flower5 .center").style.backgroundColor = "green";
 	document.querySelector("#flower5 .center").style.color = "white";
 
-	document.querySelector(`#flower1`).style.marginTop = "100px";
-	document.querySelector(`#flower2`).style.marginTop = "100px";
-	document.querySelector(`#flower3`).style.marginTop = "100px";
-	document.querySelector(`#flower4`).style.marginTop = "100px";
-	document.querySelector(`#flower5`).style.marginTop = "100px";
+	document.querySelector(`#flower1`).style.marginTop = "200px";
+	document.querySelector(`#flower2`).style.marginTop = "400px";
+	document.querySelector(`#flower3`).style.marginTop = "200px";
+	document.querySelector(`#flower4`).style.marginTop = "500px";
+	document.querySelector(`#flower5`).style.marginTop = "300px";
 
 	// DO NOT PUT ANY CODE AFTER THIS POINT
 }
