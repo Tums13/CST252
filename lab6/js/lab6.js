@@ -29,8 +29,11 @@ function formatAndSortNames() {
 	newArray = [];
 
 	//Remember to Google what "split" does
-
-	function fixNames(arrayOfNames){
+	splitNames = arrayOfNames[0].split(' ');
+	firstName = splitNames[0];
+	lastName = splitNames[1];
+	fixedName = lastName + ', ' + firstName;
+	newArray.push(fixedName);
 
 	splitNames = arrayOfNames[0].split(' ');
 	firstName = splitNames[0];
@@ -38,7 +41,12 @@ function formatAndSortNames() {
 	fixedName = lastName + ', ' + firstName;
 	newArray.push(fixedName);
 
-}
+	splitNames = arrayOfNames[0].split(' ');
+	firstName = splitNames[0];
+	lastName = splitNames[1];
+	fixedName = lastName + ', ' + firstName;
+	newArray.push(fixedName);
+
 
 	newArray.sort();
 	finalFixedName = newArray.pop();
