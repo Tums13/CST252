@@ -1,5 +1,5 @@
-function onLoad {
+function onLoad() {
 
-console.log('it worked');
+console.log('it worked.');
 
 }
