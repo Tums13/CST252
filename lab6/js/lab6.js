@@ -37,8 +37,7 @@ function formatAndSortNames() {
 	lastName = splitNames[1];
 	fixedName = lastName + ', ' + firstName;
 	newArray.push(fixedName);
-	return name;
-	
+
 }
 
 	newArray.sort();
