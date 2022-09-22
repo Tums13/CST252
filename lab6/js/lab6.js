@@ -35,18 +35,17 @@ function formatAndSortNames() {
 	fixedName = lastName + ', ' + firstName;
 	newArray.push(fixedName);
 
-	splitNames = arrayOfNames[0].split(' ');
+	splitNames = arrayOfNames[1].split(' ');
 	firstName = splitNames[0];
 	lastName = splitNames[1];
 	fixedName = lastName + ', ' + firstName;
 	newArray.push(fixedName);
 
-	splitNames = arrayOfNames[0].split(' ');
+	splitNames = finalName.split(' ');
 	firstName = splitNames[0];
 	lastName = splitNames[1];
 	fixedName = lastName + ', ' + firstName;
 	newArray.push(fixedName);
-
 
 	newArray.sort();
 	finalFixedName = newArray.pop();
