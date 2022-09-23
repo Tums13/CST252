@@ -1,4 +1,8 @@
+function ShowMessage() {
+    alert("This is Andrew's lab 6");
+}
 
+ShowMessage();
 //PUT YOUR FUNCTIONS UP HERE
 function addToWebPage(text)
 {
