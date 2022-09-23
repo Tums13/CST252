@@ -1,5 +1,5 @@
 function ShowMessage() {
-    alert("This is Andrew's lab 6");
+    alert("This is Andrew's groups lab 6");
 }
 
 ShowMessage();
@@ -42,7 +42,7 @@ function formatAndSortNames() {
 		newArray.push(fixedName);
 
 	}
-  //call each string as a fucntions parameter to print 
+  //call each string as a fucntions parameter to print
 	fixTheNames(arrayOfNames[0]);
 	fixTheNames(arrayOfNames[1]);
 	fixTheNames(finalName);
