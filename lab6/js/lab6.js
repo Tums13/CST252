@@ -32,9 +32,9 @@ function formatAndSortNames() {
 
 	newArray = [];
 
-
+  //This establishes the new function we want repeated using the arrayOfNames as a parameter
 	function fixTheNames(arrayOfNames) {
-
+    //use arrayOfNames as parameter to update the functions changing value for each call
 		splitNames = arrayOfNames.split(' ');
 		firstName = splitNames[0];
 		lastName = splitNames[1];
@@ -42,7 +42,7 @@ function formatAndSortNames() {
 		newArray.push(fixedName);
 
 	}
-
+  //call each string as a fucntions parameter to print 
 	fixTheNames(arrayOfNames[0]);
 	fixTheNames(arrayOfNames[1]);
 	fixTheNames(finalName);
