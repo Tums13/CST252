@@ -15,7 +15,7 @@ function formatAndSortNames() {
 	let arrayOfNames, splitNames, firstName, lastName, fixedName,
 		finalName, combinedString, newArray, combinedFixedString;
 
-	arrayOfNames = ["Kizzmekia Corbett", "Ada Lovelace", "Levar Burton" ];
+	arrayOfNames = ["Kizzmekia Corbett", "Ada Lovelace", "Levar Burton"];
 
 	//Reminder: Google what "javscript pop" does if you do not remember!
 	finalName = arrayOfNames.pop();
@@ -28,25 +28,40 @@ function formatAndSortNames() {
 
 	newArray = [];
 
+
+	function fixTheNames(arrayOfNames) {
+
+		splitNames = arrayOfNames.split(' ');
+		firstName = splitNames[0];
+		lastName = splitNames[1];
+		fixedName = lastName + ', ' + firstName;
+		newArray.push(fixedName);
+
+	}
+
+	fixTheNames(arrayOfNames[0]);
+	fixTheNames(arrayOfNames[1]);
+	fixTheNames(finalName);
+
+
 	//Remember to Google what "split" does
-	splitNames = arrayOfNames[0].split(' ');
-	firstName = splitNames[0];
-	lastName = splitNames[1];
-	fixedName = lastName + ', ' + firstName;
-	newArray.push(fixedName);
+	//splitNames = arrayOfNames[0].split(' ');
+	//firstName = splitNames[0];
+	//lastName = splitNames[1];
+	//fixedName = lastName + ', ' + firstName;
+	//newArray.push(fixedName);
 
-	splitNames = arrayOfNames[1].split(' ');
-	firstName = splitNames[0];
-	lastName = splitNames[1];
-	fixedName = lastName + ', ' + firstName;
-	newArray.push(fixedName);
+	//splitNames = arrayOfNames[1].split(' ');
+	//firstName = splitNames[0];
+	//lastName = splitNames[1];
+	//fixedName = lastName + ', ' + firstName;
+	//newArray.push(fixedName);
 
-	splitNames = finalName.split(' ');
-	firstName = splitNames[0];
-	lastName = splitNames[1];
-	fixedName = lastName + ', ' + firstName;
-	newArray.push(fixedName);
-
+	//splitNames = finalName.split(' ');
+	//firstName = splitNames[0];
+	//lastName = splitNames[1];
+	//fixedName = lastName + ', ' + firstName;
+	//newArray.push(fixedName);
 	newArray.sort();
 	finalFixedName = newArray.pop();
 	//Reminder: Google what "join" does!
