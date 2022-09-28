@@ -16,5 +16,7 @@ console.log("Is 2 odd?" , isOdd(2));
 
 var results = number.map(isOdd);
 
+console.log("Array of numbers: " + number);
+console.log("Test of oddness of the array: " + results);
 //document.write("This is the original array: " + number + " ");
 //document.write("This function will test  eveness of the array, these are the results: " + results) ;
