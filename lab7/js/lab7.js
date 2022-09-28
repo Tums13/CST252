@@ -16,6 +16,5 @@ console.log("Is 2 odd?" , isOdd(2));
 
 var results = number.map(isOdd);
 
-let resultsPara = document.querySelector(".results");
 //document.write("This is the original array: " + number + " ");
 //document.write("This function will test  eveness of the array, these are the results: " + results) ;
