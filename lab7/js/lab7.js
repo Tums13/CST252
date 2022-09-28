@@ -1,7 +1,7 @@
 /**
  * Author:    Andrew Tamez
  * Created:   9.26.2022
- * 
+ *
  * (c) Copyright by Tamez Codes.
  **/
 
@@ -16,4 +16,5 @@ console.log("Is 2 odd?" , isOdd(2));
 
 var results = number.map(isOdd);
 
-console.log("Test of oddness on the array of numbers: ", results);
+document.write("This is the original array: " + number + " ");
+document.write("This function will test  eveness of the array, these are the results: " + results);
