@@ -1,4 +1,20 @@
 body {
-    background: #6e28d9;
+    background: grey;
     color: white;
+    font-size: 20px;
    }
+
+   p.results { 
+    font-size: 25px;
+    border-style: solid;
+    border-color: #6e28d9;
+    width: 25%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: auto;
+   }
+
+   #content {
+    max-width: 500px;
+    margin: auto;
+  }
