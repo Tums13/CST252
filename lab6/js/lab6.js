@@ -9,7 +9,6 @@ function addToWebPage(text)
 	document.querySelector('#content').innerHTML += text + '<br /><br />'
 }
 
-
 //YOU CAN ADD MORE FUNCTIONS HERE
 
 //END FUNCTIONS SECTION
@@ -47,7 +46,6 @@ function formatAndSortNames() {
 	fixTheNames(arrayOfNames[1]);
 	fixTheNames(finalName);
 
-
 	//Remember to Google what "split" does
 	//splitNames = arrayOfNames[0].split(' ');
 	//firstName = splitNames[0];
@@ -66,6 +64,7 @@ function formatAndSortNames() {
 	//lastName = splitNames[1];
 	//fixedName = lastName + ', ' + firstName;
 	//newArray.push(fixedName);
+
 	newArray.sort();
 	finalFixedName = newArray.pop();
 	//Reminder: Google what "join" does!
