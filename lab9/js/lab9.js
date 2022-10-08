@@ -21,8 +21,8 @@ let hoverEvent = document.querySelector("#hover");
 
 let handle2 = () => {
     let colorEffect = document.querySelector("#hover");
-    colorEffect.style.color = "red";
-    colorEffect.style.backgroundColor = "green";
+    colorEffect.style.color = "green";
+    colorEffect.style.backgroundColor = "purple";
 }
 
 hoverEvent.addEventListener("mouseover", handle2);
