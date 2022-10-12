@@ -1,12 +1,6 @@
 .box {
-    background-color: blue;
-    color: white;
     width: 200px;
-    height: 200px;
-    margin: 50px;
-}
-
-.center {
-    line-height: 200px;
-    text-align: center;
+    height: 100px;
+    background-color: blue;
+    margin-top: 2%
 }
