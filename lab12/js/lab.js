@@ -18,7 +18,7 @@ function getRandomInt() {
 		document.querySelector('#results').textContent = "You guessed the number!";
 	  }
 	  if (userInput != randomNumber) {
-		if (userInput <= randomNumber + 5) {
+		if (userInput >= randomNumber + 5) {
 		  console.log("Your number was too high!");
 		  console.log("The number you guessed wasn't correct. Try again.");
 		  document.querySelector('#results').textContent = "Your number was way too high!";
