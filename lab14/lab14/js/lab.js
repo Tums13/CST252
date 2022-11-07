@@ -14,8 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 			newBox.classList.add("box"); //remove period from class name wasn't needed
 			newBox.textContent = "You won!"; //changed text to textContent
 			document.body.appendChild(newBox); //appended and updated the newBox to document
-
-
 		}
 	}
 
