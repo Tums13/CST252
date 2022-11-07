@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoded", () => {
 	/////////create a new div
 	/////////set the div to have a message "you won!"
 	let inputHandler = () => {
-		if (e.currentTarget.value === 6) {
+		if (+e.currentTarget.value === 6) {
 			let newBox = document.createElement('div');
 			div.classList.add('.box');
 			div.text = 'You won!';
-			
+
 		}
 	}
 
